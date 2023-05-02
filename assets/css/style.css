@@ -1,0 +1,33 @@
+p {
+    --darkSkyBlue: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    background-color: var(--darkSkyBlue);
+    font-size: var(--fontSize);
+}
+
+p:hover {
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
+
+button:hover {
+    border-color: var(--darkSkyBlue);
+    /* font-size: 200%; */
+}
+
+button:focus {
+    border-color: var(--darkSkyBlue);
+}
+
+h1::before{
+    content: '\273A';
+    background-color: var(--darkSkyBlue);
+}
+
+h1:hover + p{
+    /* font-size: 350%; */
+}
